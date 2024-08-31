@@ -25,7 +25,7 @@ export TF_VAR_azurerm_client_secret="secret..."
 
 ENV="tst"
 
-terraform init  -backend-config="../envs/${ENV}.tfbackend" -reconfigure
+terraform init -reconfigure
 
 terraform plan -var-file="../envs/${ENV}.tfvars"
 
