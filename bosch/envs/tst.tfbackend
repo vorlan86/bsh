@@ -1,0 +1,7 @@
+# used for backend 
+resource_group_name = "dev-config-rg"
+storage_account_name = "terraformstate"
+container_name = "tfstate"
+key = "bsh-tst.tfstate"
+subscription_id = "set_subscription_id"
+tenant_id = "set_tenant_id"
